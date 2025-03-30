@@ -15,3 +15,57 @@ h1 {
 #result .red {
   color: #e74c3c;
 }
+
+.header-top {
+  text-align: center;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+#userInput {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#countdown {
+  padding: 20px;
+  height: 30px;
+  text-align: center;
+}
+
+#result {
+  padding: 20px;
+  height: 30px;
+  text-align: center;
+}
+
+.win {
+  color: #2ecc71;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.lose {
+  color: #e74c3c;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#restart {
+  padding: 10px;
+  color: white;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+}
+
+#restart:hover {
+  background-color: #2980b9;
+}
